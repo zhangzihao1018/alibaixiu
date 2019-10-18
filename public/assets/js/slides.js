@@ -44,6 +44,7 @@ $('#slidesForm').on('submit',function(){
             location.reload();
         }
     })
+    return false;
 });
 //删除功能
 $('#slidesBox').on('click','.delete',function(){
