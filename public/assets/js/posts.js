@@ -57,4 +57,10 @@ $('#filterForm').on('submit',function(){
         }
     });
     return false;
+});
+
+//编辑功能
+$('#postsBox').on('click','.modify',function(){
+    var id=$(this).attr('data-id')
+    location.href='modify.html?id='+id;
 })
